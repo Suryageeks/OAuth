@@ -69,9 +69,8 @@ app.get("/", (req, res) => {
 });
 
 // Google AUTH
-const GOOGLE_CLIENT_ID =
-  "1055069881053-7o6mbf8culcu8l5veggesqrdlkcp6nd7.apps.googleusercontent.com";
-const GOOGLE_CLIENT_SECRET = "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";
+const GOOGLE_CLIENT_ID = "";
+const GOOGLE_CLIENT_SECRET = "";
 passport.use(
   new GoogleStrategy(
     {
